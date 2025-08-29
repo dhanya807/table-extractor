@@ -61,9 +61,14 @@ flowchart TD
 - Add a `.gitignore` to exclude `.venv/`, outputs, and local configs
 
 ### Setup
-1. Python 3.10+
-2. Install system deps: Ghostscript and Tkinter may be required for Camelot; Tesseract for fallback OCR.
-3. Install Python deps:
+1. **Clone the repository**:
+```bash
+git clone https://github.com/dhanya807/table-extractor.git
+cd table-extractor
+```
+2. Python 3.10+
+3. Install system deps: Ghostscript and Tkinter may be required for Camelot; Tesseract for fallback OCR.
+4. Install Python deps:
 ```bash
 python -m venv .venv
 . .venv/Scripts/activate  # Windows PowerShell: .venv\Scripts\Activate.ps1
@@ -75,7 +80,7 @@ pip install -r requirements.txt
     ```
 
 
-4. Set Gemini API key (for scanned PDFs):
+5. Set Gemini API key (for scanned PDFs):
 ```bash
 $env:GEMINI_API_KEY = "<your_key>"
 ```
