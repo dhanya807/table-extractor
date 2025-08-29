@@ -64,7 +64,7 @@ flowchart TD
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/dhanya807/table-extractor.git
-cd table-extractor
+cd /directory
 ```
 2. Python 3.10+
 3. Install system deps: Ghostscript and Tkinter may be required for Camelot; Tesseract for fallback OCR.
